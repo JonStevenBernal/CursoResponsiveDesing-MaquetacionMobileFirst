@@ -1,0 +1,56 @@
+/*
+1. Posicionamiento
+2. Modelo caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+:root {
+  /* Colores */
+  --bitcoin-orage: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #ffe9d5;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --warm-blackplus1: #282623;
+  --gray: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* el width no se va ser mas chico de 320px ya que es la dimencion mas chica en los celulares */
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+}
+header img {
+  width: 150px;
+  height: 43px;
+  margin-top: 60px;
+  align-self: center;
+}
+.header--title-container {
+  width: 90%;
+  /* no se va ser mas chico cuando llegue a 288px */
+  min-width: 288px;
+  /* dejara de crecer cuando llegue a los 900px */
+  max-width: 900px;
+  height: 218px;
+  margin-top: 40px;
+  text-align: center;
+  align-self: center;
+}
