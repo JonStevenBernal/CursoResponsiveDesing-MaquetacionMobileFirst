@@ -9,7 +9,7 @@
   /* Colores */
   --bitcoin-orage: #f7931a;
   --soft-orange: #ffe9d5;
-  --secondary-blue: #ffe9d5;
+  --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
   --warm-black: #201e1c;
   --warm-blackplus1: #282623;
@@ -153,6 +153,9 @@ main {
   font-weight: bold;
   line-height: 2.3rem;
   color: var(--bitcoin-orage);
+}
+.main-currency-table .currency-table--title2 {
+  color: var(--secondary-blue);
 }
 .currency-table--container {
   width: 90%;
