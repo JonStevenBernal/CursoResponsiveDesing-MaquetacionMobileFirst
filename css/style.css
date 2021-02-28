@@ -26,6 +26,7 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  /* scroll behavior se refiere a una forma animada a la hora de hacer click en eun enlace y este se desplace */
   scroll-behavior: smooth;
 }
 header {
@@ -95,7 +96,7 @@ header img {
   width: 13px;
   height: 8px;
   margin-left: 10px;
-  background-image: url("./assets/icons/arrowdown.svg");
+  background-image: url("../assets/icons/arrowdown.svg");
 }
 main {
   width: 100%;
@@ -121,7 +122,7 @@ main {
   height: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url("./assets/imgs/bitcoin.svg");
+  background-image: url("../assets/imgs/bitcoin.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -271,7 +272,7 @@ main {
   left: calc(50% - 20px);
   width: 40px;
   height: 25px;
-  background-image: url("./assets/imgs/patataonly.svg");
+  background-image: url("../assets/imgs/patataonly.svg");
 }
 .product-detail--title {
   width: 90%;
@@ -316,16 +317,16 @@ main {
   background-repeat: no-repeat;
 }
 .clock {
-  background-image: url("./assets/icons/clock.svg");
+  background-image: url("../assets/icons/clock.svg");
 }
 .eye {
-  background-image: url("./assets/icons/eye.svg");
+  background-image: url("../assets/icons/eye.svg");
 }
 .dollar {
-  background-image: url("./assets/icons/dollar.svg");
+  background-image: url("../assets/icons/dollar.svg");
 }
 .check {
-  background-image: url("./assets/icons/check-circle.svg");
+  background-image: url("../assets/icons/check-circle.svg");
 }
 .product--card-title {
   margin-bottom: 15px;
@@ -344,7 +345,7 @@ main {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background-image: url("./assets/imgs/bitcoinbaby.jpg");
+  background-image: url("../assets/imgs/bitcoinbaby.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -462,7 +463,7 @@ main {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("./assets/icons/arrow-right.svg");
+  background-image: url("../assets/icons/arrow-right.svg");
   /* para alinear el texto con el icono */
   vertical-align: text-bottom;
 }
